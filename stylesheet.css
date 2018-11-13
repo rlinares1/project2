@@ -1,0 +1,478 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: cyan; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+}
+
+body {
+	background-image: linear-gradient(to right, #FFBD49, white, #FFBD49);
+}
+
+h1 {
+	font-size: 40px;
+	font-family: "Charmonman", cursive;
+}
+
+h1.title1 {
+	font-size: 40px;
+	font-family: Verdana;
+	color: red;
+}
+
+nav {
+	border: 10px solid black;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+} 
+
+.homepagelink {
+	font-size: 40px;
+	font-family: "Charmonman", cursive;
+	color: black;
+}
+
+.howtovotelink {
+	font-size: 40px;
+	font-family: "Charmonman", cursive;
+	color: black;
+}
+
+.candidateslink {
+	font-size: 40px;
+	font-family: "Charmonman", cursive;
+	color: black;
+}
+
+.romariolink {
+	font-size: 40px;
+	font-family: "Charmonman", cursive;
+	color: black;
+}
+	
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.one {
+	grid-column: 1 / 2;
+	grid-row: 1 / 5;
+	border: 2px solid black;
+	background-image: linear-gradient(to top, #66ccff, gray, white);
+}
+
+.text1 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 5;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	border: 1px solid black;
+}
+
+.think {
+	width: 100%;
+	height: 100%;
+}
+
+.two { 
+	grid-column: 2 / 3;
+	grid-row: 1 / 5;
+	border: 2px solid black;
+	background-image: linear-gradient(to top, #66ccff, gray, white);
+}
+
+.text2 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 5;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	border: 1px solid black;
+}
+
+.vote {
+	width: 100%;
+	height: 100%;
+}
+
+.three {
+	grid-column: 3 / 4;
+	grid-row: 1 / 5;
+	border: 2px solid black;
+	background-image: linear-gradient(to top, #66ccff, gray, white);
+}
+
+.text3 {
+	grid-column: 1 / 2;
+	grid-row: 2 / 5;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	border: 1px solid black;
+}
+
+.calltoaction {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.textpart2 {
+	grid-column: 1;
+	grid-row: 1;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.one2 {
+	grid-column: 1;
+	grid-row: 2 / 3;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.ballet {
+	grid-column: 2;
+	grid-row: 1 / 2;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.suit {
+	width: 100%;
+	height: 100%;
+}
+
+.secondtext {
+	grid-column: 3;
+	grid-row: 1;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.two2 {
+	grid-column: 3;
+	grid-row: 2 / 3;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.suit2 {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.one3 {
+	grid-column: 1;
+	grid-row: -4;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.thirdtext {
+	grid-column: 2;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.romarioimg {
+	width: 100%;
+	height: 500px;
+}
+
+.two3 {
+	grid-column: 2;
+	grid-row: -4;
+}
+
+.versus {
+	width: 100%;
+	height: 100%;
+}
+
+.three3 {
+	grid-column: 3;
+	grid-row: -4;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.thirdtext2 {
+	grid-column: 3;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.carterimg {
+	width: 100%;
+	height: 500px;
+}
+
+.wrapper4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.one4 {
+	grid-column: 1;
+	grid-row: -4;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+}
+
+.two4 {
+	grid-column: 3;
+	grid-row: -4;
+	border: 2px solid black;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+}
+
+h2 {
+	font-family: "Charmonman", cursive;
+	color: black;
+	font-size: 20px;
+}
+
+h1.backstory {
+	border: 10px solid black;
+	border-radius: 10px;
+	text-align: center;
+	background-image: linear-gradient(to right, grey, white, grey);
+}
+
+h1.note {
+	margin-left: 1300px;
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: center;
+}
+
+.wrapper5 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.one5 {
+	border: 2px solid black;
+	grid-column: 1;
+	grid-row: 1 / span 5;
+}
+
+.imgforgrid {
+	width: 100%; 
+	height: 100%;
+}
+
+.title4 {
+	border: 2px solid black; 
+	grid-column: 2 / 5;
+	grid-row: 1 / 2;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.two5 {
+	border: 2px solid black;
+	grid-column: 5;
+	grid-row: 1 / span 5;
+}
+
+.three5 {
+	border: 2px solid black;
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 4;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.text5 {
+	border: 2px solid black;
+	grid-column: 2;
+	grid-row: 3 / span 3;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	font-family: Verdana;
+}
+
+table, th, tr, td {
+	border: 2px solid black;
+}
+
+.four5 {
+	border: 2px solid black; 
+	grid-column: 4 / 5;
+	grid-row: 2 / span 4;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.secondtext5 {
+	border: 2px solid black;
+	grid-column: 4 / 5;
+	grid-row: 3 / span 3;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	font-family: Verdana;
+}
+
+.five5 {
+	border: 2px solid black;
+	grid-column: 3;
+	grid-row: 2 / 3;
+	background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.six5 {
+	border: 2px solid black;
+	grid-column: 3;
+	grid-row: 3 / 6;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+}
+
+p.notification {
+	font-family: Verdana;
+	font-size: 15px;
+	margin-left: 1300px;
+	text-align: center;
+}
+
+.calltoaction {
+	font-size: 40px;
+	font-family: Verdana;
+	color: red;
+}
+
+.wrapper6 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 100px;
+	text-align: center;
+}
+
+.one6 {
+	grid-column: 1;
+	grid-row: 1 / span 1;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+}
+
+.two6 {
+	border: 2px solid black;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, grey, white, grey);
+	grid-column: 2 / span 4;
+	grid-row: 1;
+}
+
+h3.steps {
+	border: 2px solid black;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+	font-family: "Charmonman", cursive;
+	font-size: 20px;
+}
+
+.three6 {
+	border: 2px solid black; 
+	background-image: linear-gradient(to right, grey, white, grey);
+	grid-column: 2;
+	grid-row: 2;
+	text-align: center;
+}
+
+h2.step {
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+.four6 {
+	border: 2px solid black;
+	background-image: linear-gradient(to right, grey, white, grey);
+	grid-column: 3;
+	grid-row: 2;
+	text-align: center;
+}
+
+.five6 {
+	border: 2px solid black;
+	background-image: linear-gradient(to right, grey, white, grey);
+	grid-column: 4;
+	grid-row: 2;
+	text-align: center;
+}
+
+.six6 {
+	border: 2px solid black;
+	background-image: linear-gradient(to right, grey, white, grey);
+	grid-column: 5;
+	grid-row: 2;
+	text-align: center;
+}
+
+.seven6 {
+	grid-column: 6;
+	grid-row: 1 / span 1;
+}
+
+h1.objection {
+	font-family: Verdana;
+	border: 10px solid black;
+	border-radius: 10px;
+	text-align: center;
+	color: red;
+	background-color: white;
+}
+
+.one7 {
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.seven7 {
+	grid-column: 6;
+	grid-row: 3;
+}
+
+h2.backstorytext {
+	text-align: center;
+	border: 10px solid black;
+	background-image: linear-gradient(to right, #ccffff, white, #ccffff);
+}
